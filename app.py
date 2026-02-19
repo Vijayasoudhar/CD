@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/ping", methods=['GET'])
 def ping():
-    return {"message":"Pinging model!! after CD"}
+    return {"message":"After CD"}
 
 # defining the endpoint which will make the prediction
 @app.route("/prediction", methods=['POST'])
